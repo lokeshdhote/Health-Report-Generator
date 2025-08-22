@@ -3,60 +3,38 @@ import csv
 import joblib
 from datetime import datetime
 from sentence_transformers import SentenceTransformer
-
 from core.recommender import get_recommendations
-from core.training import train_model
+from core.training import clean_text
 
 MODEL_PATH = 'model/classifier.pkl'
 
-# 🔁 Automatically train if model is missing
+# Load trained model and embedder
 if not os.path.exists(MODEL_PATH):
-    print("⚠️ Model not found, training a new model...")
-    train_model()
+    raise FileNotFoundError(f"❌ Model not found at {MODEL_PATH}. Please train first.")
 
-# Load trained model and embedder only once
-try:
-    clf = joblib.load(MODEL_PATH)
-except Exception as e:
-    print(f"❌ Failed to load model: {e}. Retraining...")
-    train_model()
-    clf = joblib.load(MODEL_PATH)
+clf = joblib.load(MODEL_PATH)
+embedder = SentenceTransformer('all-MiniLM-L6-v2', device='cpu')
 
-try:
-    embedder = SentenceTransformer('all-MiniLM-L6-v2',device='cpu')
-except Exception as e:
-    raise RuntimeError(f"❌ Failed to load SentenceTransformer: {e}")
-
-def predict_disease(report_text: str):
+def predict_disease(report_text):
     """
-    Predicts the disease based on the medical report text.
-    Returns:
-        - prediction (str): Predicted disease
-        - suggestions (list): List of recommendations
+    Predicts the disease based on cleaned report text.
+    Returns predicted disease and list of recommendations.
     """
-    if not report_text.strip():
-        raise ValueError("Report text is empty.")
-    
-    emb = embedder.encode([report_text])
+    cleaned = clean_text(report_text)
+    emb = embedder.encode([cleaned])
     prediction = clf.predict(emb)[0]
-    suggestions = get_recommendations(prediction)
-    return prediction, suggestions
+    tips = get_recommendations(prediction)
+    return prediction, tips
 
-def log_prediction(report_text: str, disease: str):
+def log_prediction(report_text, disease):
     """
-    Logs the prediction to a CSV file with timestamp, first 50 chars of report, and disease.
+    Logs predictions to CSV with timestamp.
     """
     os.makedirs("data", exist_ok=True)
-    log_file = "data/prediction_log.csv"
-    
-    try:
-        with open(log_file, "a", newline='', encoding='utf-8') as f:
-            writer = csv.writer(f)
-            writer.writerow([
-                datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                report_text[:50],
-                disease
-            ])
-            
-    except Exception as e:
-        print(f"❌ Failed to log prediction: {e}")
+    with open("data/prediction_log.csv", "a", newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            report_text[:50],
+            disease
+        ])
