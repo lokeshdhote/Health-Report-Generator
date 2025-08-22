@@ -1,3 +1,4 @@
+# Dictionary of disease-specific recommendations
 recommendations = {
     "Diabetes": [
         "Exercise daily for 30 minutes",
@@ -97,18 +98,17 @@ recommendations = {
     ]
 }
 
-def get_recommendations(disease):
+def get_recommendations(disease: str) -> list:
     """
     Returns a list of recommendations for the given disease.
-    Falls back to a default suggestion if no match is found.
     Matching is case-insensitive.
+    Falls back to a default suggestion if no match is found.
     """
     normalized_disease = disease.strip().lower()
-
-    for key in recommendations:
+    for key, tips in recommendations.items():
         if key.lower() == normalized_disease:
-            return recommendations[key]
+            return tips
 
-    # Log missing disease (for debugging)
+    # Optional: log missing disease for monitoring
     print(f"⚠️ No recommendations found for: '{disease}'")
     return ["Consult a specialist for further diagnosis."]

@@ -1,4 +1,178 @@
 report,disease
+"Patient shows elevated TSH levels, indicating hypothyroidism",Hypothyroidism
+"Burning sensation while urinating, possible urinary tract infection",UTI
+"Persistent cough and fever, signs of tuberculosis",Tuberculosis
+"Patient reports frequent urination, excessive thirst, blurred vision.",Diabetes
+"Blood pressure consistently at 150/90 mmHg with dizziness.",Hypertension
+"Yellowing of skin and eyes, dark urine, fatigue.",Hepatitis B
+"Patient has cough with blood, night sweats, and weight loss.",Tuberculosis
+"Fever, severe headache, joint pain, and skin rash observed.",Dengue
+"High cholesterol and triglycerides found in lipid profile.",Hyperlipidemia
+"Shortness of breath, wheezing, and tightness in chest.",Asthma
+"Persistent sadness, sleep issues, and low energy.",Depression
+"Patient feels heartburn after meals and bloating.",Acidity
+"Red patches on skin with itching and dryness.",Psoriasis
+"Sudden weakness, slurred speech, and facial droop.",Stroke
+"Frequent cold, sneezing, nasal congestion and watery eyes.",Allergy
+"Chest pain during exertion, ECG shows irregularities.",Heart Disease
+"Sharp abdominal pain, vomiting, and loss of appetite.",Appendicitis
+"Fatigue, low platelets, systemic lupus erythematosus diagnosed.",Lupus
+"Palpable mass, BI-RADS 5, invasive ductal carcinoma confirmed.",Breast Cancer
+"Sore throat, chills, tested positive for influenza.",Flu
+"Swelling and tenderness in small joints. Anti-CCP positive.",Rheumatoid Arthritis
+"Travel history to endemic region, diagnosed with malaria.",Malaria
+"Severe substernal pain radiating to jaw. MI confirmed.",Heart Attack
+"Patient reports extreme fatigue and weight loss. Blood sugar levels high.",Diabetes
+"Jaundice, dark urine, liver ultrasound shows inflammation.",Hepatitis B
+"Nausea and severe RLQ pain. Appendix wall thickened.",Appendicitis
+"Exercise-induced wheezing and coughing episodes reported.",Asthma
+"Lump detected in right breast. FNAC suggests malignancy.",Breast Cancer
+"Positive IgM antibodies. Severe muscle pain and fever.",Dengue
+"Nocturnal headaches, nosebleeds, elevated diastolic pressure.",Hypertension
+"Loss of interest in activities, insomnia for 3 weeks.",Depression
+"Patient uses inhaler frequently. Shortness of breath during sleep.",Asthma
+"Increased thirst and frequent urination. HbA1c at 8.9%.",Diabetes
+"Positive nitrite test. Midstream urine shows bacteria.",UTI
+"Hair loss, dry skin, low T3 and T4.",Hypothyroidism
+"Triggers include cold air and dust. PFT confirms diagnosis.",Asthma
+"Patient shows elevated TSH levels, fatigue, weight gain, dry skin.",Hypothyroidism
+"Burning sensation while urinating, cloudy urine, positive urine culture.",UTI
+"Persistent cough, fever, night sweats, weight loss, and hemoptysis.",Tuberculosis
+"Frequent urination, excessive thirst, blurred vision, high fasting glucose.",Diabetes
+"Blood pressure consistently high at 150/90 mmHg, dizziness, headache.",Hypertension
+"Yellowing of skin and eyes, dark urine, fatigue, elevated liver enzymes.",Hepatitis B
+"Fever, severe headache, joint pain, rash, positive NS1 antigen.",Dengue
+"High cholesterol and triglycerides in lipid profile, chest discomfort.",Hyperlipidemia
+"Shortness of breath, wheezing, chest tightness, confirmed asthma via PFT.",Asthma
+"Persistent sadness, insomnia, low energy, loss of interest in activities.",Depression
+"Heartburn after meals, bloating, occasional nausea.",Acidity
+"Red itchy patches on skin, dry skin, diagnosed psoriasis.",Psoriasis
+"Sudden weakness, slurred speech, facial droop, MRI confirms stroke.",Stroke
+"Frequent sneezing, nasal congestion, watery eyes, allergy confirmed via IgE test.",Allergy
+"Chest pain during exertion, irregular ECG, palpitations.",Heart Disease
+"Severe right lower quadrant abdominal pain, vomiting, rebound tenderness.",Appendicitis
+"Fatigue, low platelets, joint pain, lupus confirmed via ANA test.",Lupus
+"Menstrual irregularity, fatigue, low T3/T4, hypothyroidism confirmed.",Hypothyroidism
+"Nipple discharge, palpable breast lump, biopsy confirms malignancy.",Breast Cancer
+"Sore throat, fever, chills, influenza confirmed via PCR.",Flu
+"Swelling, tenderness in small joints, anti-CCP positive.",Rheumatoid Arthritis
+"Recent travel to malaria-endemic region, fever, confirmed malaria.",Malaria
+"Severe substernal chest pain radiating to jaw, elevated troponin, ECG confirms MI.",Heart Attack
+"Nausea, RLQ abdominal pain, appendix wall thickened on ultrasound.",Appendicitis
+"Jaundice, elevated ALT/AST, positive HBsAg.",Hepatitis B
+"Excessive thirst, frequent urination, HbA1c 8.9%, fasting glucose elevated.",Diabetes
+"Shortness of breath at night, wheezing, uses inhaler frequently.",Asthma
+"Loss of appetite, fatigue, high bilirubin, liver inflammation.",Hepatitis
+"Runny nose, fatigue, PCR confirms influenza.",Flu
+"Positive nitrite test, burning urination, urine culture shows bacteria.",UTI
+"Hair loss, dry skin, fatigue, TSH elevated.",Hypothyroidism
+"Fever, rash, joint pain, low platelets, positive dengue NS1.",Dengue
+"Chest tightness, palpitations, irregular heartbeat, diagnosed heart disease.",Heart Disease
+"Painful, swollen joints, morning stiffness, RA factor positive.",Rheumatoid Arthritis
+"Severe headache, neck stiffness, fever, suspected meningitis.",Meningitis
+"Fever, cough, shortness of breath, oxygen saturation low, confirmed COVID-19.",COVID-19
+"Severe abdominal cramps, diarrhea, vomiting, suspected food poisoning.",Food Poisoning
+"Fatigue, pale skin, low hemoglobin, diagnosed anemia.",Anemia
+"Persistent cough, chest X-ray shows mass, biopsy confirms lung cancer.",Lung Cancer
+"Swelling in legs, shortness of breath, echocardiogram shows heart failure.",Heart Failure
+"Weight loss, night sweats, fever, confirmed lymphoma via biopsy.",Lymphoma
+"Painful urination, frequent urge to urinate, confirmed bladder infection.",UTI
+"Severe headache, vision changes, BP elevated, diagnosed preeclampsia.",Preeclampsia
+"Abdominal pain, bloating, irregular bowel movements, diagnosed IBS.",IBS
+"Joint pain, morning stiffness, swollen fingers, diagnosed osteoarthritis.",Osteoarthritis
+"Fatigue, tremor, palpitations, diagnosed hyperthyroidism.",Hyperthyroidism
+"Fever, chills, muscle aches, positive malaria smear.",Malaria
+"Severe chest pain, dyspnea, ECG shows ST-elevation, myocardial infarction confirmed.",Heart Attack
+"Persistent cough, wheezing, shortness of breath, COPD confirmed via spirometry.",COPD
+"Confusion, fever, neck stiffness, positive CSF culture, meningitis confirmed.",Meningitis
+"High blood sugar, frequent urination, blurred vision, diabetic ketoacidosis.",Diabetes
+"Rash on face and body, fever, Koplik spots, diagnosed measles.",Measles
+"Severe sore throat, fever, swollen tonsils, diagnosed streptococcal pharyngitis.",Strep Throat
+"Severe right upper quadrant pain, jaundice, ultrasound shows gallstones.",Gallstones
+"Persistent dry cough, weight loss, night sweats, positive TB culture.",Tuberculosis
+"Fever, severe headache, joint pain, and skin rash observed.",Dengue
+"High cholesterol and triglycerides found in lipid profile.",Hyperlipidemia
+"Shortness of breath, wheezing, and tightness in chest.",Asthma
+"Persistent sadness, sleep issues, and low energy.",Depression
+"Patient feels heartburn after meals and bloating.",Acidity
+"Red patches on skin with itching and dryness.",Psoriasis
+"Sudden weakness, slurred speech, and facial droop.",Stroke
+"Frequent cold, sneezing, nasal congestion and watery eyes.",Allergy
+"Elevated blood sugar levels with foot ulcers.",Diabetes
+"Chest pain during exertion, ECG shows irregularities.",Heart Disease
+"Sharp abdominal pain, vomiting, and loss of appetite.",Appendicitis
+"Fatigue, low platelets, systemic lupus erythematosus diagnosed.",	Lupus
+"Menstrual irregularity, hypothyroid confirmed.",	Hypothyroidism
+"Cloudy urine, UTI suspected, confirmed via culture.",	UTI
+"Palpable mass, BI-RADS 5, invasive ductal carcinoma confirmed.",	Breast Cancer
+"Sore throat, chills, tested positive for influenza.",	Flu
+"Fever, headache, muscle pain, joint stiffness. Platelet count low.",	Dengue
+"Runny nose, fatigue, PCR confirms flu.",	Flu
+"Vomiting, rebound tenderness, ultrasound positive.",	Appendicitis
+"Swelling and tenderness in small joints. Anti-CCP positive.",	Rheumatoid Arthritis
+"Travel history to endemic region, diagnosed with malaria.",	Malaria
+"Shortness of breath, wheezing, chest tightness triggered by exercise.",	Asthma
+"Fatigue, appetite loss, hopelessness lasting 2 months.",	Depression
+"Blood smear shows Plasmodium falciparum, body ache.",	Malaria
+"Nipple discharge, skin dimpling, HER2 negative.",	Breast Cancer
+"Elevated BP, blurred vision, history of stroke.",	Hypertension
+"Persistent sadness, insomnia, loss of interest. PHQ-9 score 18.",	Depression
+"Severe right lower quadrant pain. CT confirms appendicitis.",	Appendicitis
+"Hair loss, dry skin, low T3 and T4.",	Hypothyroidism
+"Pain in joints, especially morning stiffness. RA factor positive.",	Rheumatoid Arthritis
+"Yellow skin and eyes. ALT elevated, HBsAg positive.",	Hepatitis B
+"Nausea and severe RLQ pain. Appendix wall thickened.",	Appendicitis
+"Wounds healing slowly, blurred vision, fasting glucose elevated.",	Diabetes
+"Burning during urination. Urine culture shows Klebsiella.",	UTI
+"Frequent urination, lower back pain. Leukocytes present.",	UTI
+"Triggers include cold air and dust. PFT confirms diagnosis.",	Asthma
+"Triggers include cold air and dust. PFT confirms diagnosis.",	Asthma
+"Jaundice, dark urine, liver ultrasound shows inflammation.",	Hepatitis B
+"Patient reports extreme fatigue and weight loss. Blood sugar levels high.",	Diabetes
+"NS1 positive. Diagnosed with dengue hemorrhagic fever.",	Dengue
+"Lump detected in right breast. FNAC suggests malignancy.",	Breast Cancer
+"Positive nitrite test. Midstream urine shows bacteria.",	UTI
+"Wounds healing slowly, blurred vision, fasting glucose elevated.",	Diabetes
+"Exercise-induced wheezing and coughing episodes reported.",	Asthma
+"Positive HBsAg. ALT and AST highly elevated.",	Hepatitis B
+"Triggers include cold air and dust. PFT confirms diagnosis.",	Asthma
+"Jaundice, dark urine, liver ultrasound shows inflammation.",	Hepatitis B
+"Nausea and severe RLQ pain. Appendix wall thickened.",	Appendicitis
+"Positive IgM antibodies. Severe muscle pain and fever.",	Dengue
+"Severe substernal pain radiating to jaw. MI confirmed.",	Heart Attack
+"Positive nitrite test. Midstream urine shows bacteria.",	UTI
+"Positive nitrite test. Midstream urine shows bacteria.",	UTI
+"Nausea and severe RLQ pain. Appendix wall thickened.",	Appendicitis
+"Severe substernal pain radiating to jaw. MI confirmed.",	Heart Attack
+"NS1 positive. Diagnosed with dengue hemorrhagic fever.",	Dengue
+"Increased thirst and frequent urination. HbA1c at 8.9%.",	Diabetes
+"Increased thirst and frequent urination. HbA1c at 8.9%.",	Diabetes
+"Nocturnal headaches, nosebleeds, elevated diastolic pressure.",	Hypertension
+"Sudden chest pain with sweating. ECG shows Q waves.",	Heart Attack
+"Beck's score 22. Feelings of worthlessness and hopelessness.",	Depression
+"Lack of concentration, weight changes, persistent sadness.",	Depression
+"Loss of interest in activities, insomnia for 3 weeks.",	Depression
+"Sudden chest pain with sweating. ECG shows Q waves.",	Heart Attack
+"Patient uses inhaler frequently. Shortness of breath during sleep.",	Asthma
+"Increased thirst and frequent urination. HbA1c at 8.9%.",	Diabetes
+"Lump detected in right breast. FNAC suggests malignancy.",	Breast Cancer
+"Patient uses inhaler frequently. Shortness of breath during sleep.",	Asthma
+"Positive nitrite test. Midstream urine shows bacteria.",	UTI
+"HBV DNA detected. Diagnosed with chronic hepatitis B.",	Hepatitis B
+"Positive IgM antibodies. Severe muscle pain and fever.",	Dengue
+"Wounds healing slowly, blurred vision, fasting glucose elevated.",	Diabetes
+"Jaundice, dark urine, liver ultrasound shows inflammation.",	Hepatitis B
+"CT abdomen confirms inflamed appendix. Rebound tenderness.",	Appendicitis
+"Patient uses inhaler frequently. Shortness of breath during sleep.",	Asthma
+"Severe substernal pain radiating to jaw. MI confirmed.",	Heart Attack
+"Nocturnal headaches, nosebleeds, elevated diastolic pressure.",	Hypertension
+"Patient reports extreme fatigue and weight loss. Blood sugar levels high.",	Diabetes
+"Wounds healing slowly, blurred vision, fasting glucose elevated.",	Diabetes
+"Severe substernal pain radiating to jaw. MI confirmed.",	Heart Attack
+"Wounds healing slowly, blurred vision, fasting glucose elevated.",	Diabetes
+"Patient shows elevated TSH levels, indicating hypothyroidism",Thyroid
+"Burning sensation while urinating, possible urinary tract infection",UTI
+"Persistent cough and fever, signs of tuberculosis",TB
 "Patient reports frequent urination, excessive thirst, blurred vision.",Diabetes
 "Blood pressure consistently at 150/90 mmHg with dizziness.",Hypertension
 "Yellowing of skin and eyes, dark urine, fatigue.",Hepatitis
@@ -84,3 +258,307 @@ report,disease
 "Severe substernal pain radiating to jaw. MI confirmed.",	Heart Attack
 "Wounds healing slowly, blurred vision, fasting glucose elevated.",	Diabetes
 "NS1 positive. Diagnosed with dengue hemorrhagic fever.",	Dengue
+"Patient shows elevated TSH levels, fatigue, weight gain, dry skin.",Hypothyroidism
+"Burning sensation while urinating, cloudy urine, positive urine culture.",UTI
+"Persistent cough, fever, night sweats, weight loss, and hemoptysis.",Tuberculosis
+"Frequent urination, excessive thirst, blurred vision, high fasting glucose.",Diabetes
+"Blood pressure consistently high at 150/90 mmHg, dizziness, headache.",Hypertension
+"Yellowing of skin and eyes, dark urine, fatigue, elevated liver enzymes.",Hepatitis B
+"Fever, severe headache, joint pain, rash, positive NS1 antigen.",Dengue
+"High cholesterol and triglycerides in lipid profile, chest discomfort.",Hyperlipidemia
+"Shortness of breath, wheezing, chest tightness, confirmed asthma via PFT.",Asthma
+"Persistent sadness, insomnia, low energy, loss of interest in activities.",Depression
+"Heartburn after meals, bloating, occasional nausea.",Acidity
+"Red itchy patches on skin, dry skin, diagnosed psoriasis.",Psoriasis
+"Sudden weakness, slurred speech, facial droop, MRI confirms stroke.",Stroke
+"Frequent sneezing, nasal congestion, watery eyes, allergy confirmed via IgE test.",Allergy
+"Chest pain during exertion, irregular ECG, palpitations.",Heart Disease
+"Severe right lower quadrant abdominal pain, vomiting, rebound tenderness.",Appendicitis
+"Fatigue, low platelets, joint pain, lupus confirmed via ANA test.",Lupus
+"Menstrual irregularity, fatigue, low T3/T4, hypothyroidism confirmed.",Hypothyroidism
+"Nipple discharge, palpable breast lump, biopsy confirms malignancy.",Breast Cancer
+"Sore throat, fever, chills, influenza confirmed via PCR.",Flu
+"Swelling, tenderness in small joints, anti-CCP positive.",Rheumatoid Arthritis
+"Recent travel to malaria-endemic region, fever, confirmed malaria.",Malaria
+"Severe substernal chest pain radiating to jaw, elevated troponin, ECG confirms MI.",Heart Attack
+"Nausea, RLQ abdominal pain, appendix wall thickened on ultrasound.",Appendicitis
+"Jaundice, elevated ALT/AST, positive HBsAg.",Hepatitis B
+"Excessive thirst, frequent urination, HbA1c 8.9%, fasting glucose elevated.",Diabetes
+"Shortness of breath at night, wheezing, uses inhaler frequently.",Asthma
+"Loss of appetite, fatigue, high bilirubin, liver inflammation.",Hepatitis
+"Runny nose, fatigue, PCR confirms influenza.",Flu
+"Positive nitrite test, burning urination, urine culture shows bacteria.",UTI
+"Hair loss, dry skin, fatigue, TSH elevated.",Hypothyroidism
+"Fever, rash, joint pain, low platelets, positive dengue NS1.",Dengue
+"Chest tightness, palpitations, irregular heartbeat, diagnosed heart disease.",Heart Disease
+"Painful, swollen joints, morning stiffness, RA factor positive.",Rheumatoid Arthritis
+"Severe headache, neck stiffness, fever, suspected meningitis.",Meningitis
+"Fever, cough, shortness of breath, oxygen saturation low, confirmed COVID-19.",COVID-19
+"Severe abdominal cramps, diarrhea, vomiting, suspected food poisoning.",Food Poisoning
+"Fatigue, pale skin, low hemoglobin, diagnosed anemia.",Anemia
+"Persistent cough, chest X-ray shows mass, biopsy confirms lung cancer.",Lung Cancer
+"Swelling in legs, shortness of breath, echocardiogram shows heart failure.",Heart Failure
+"Weight loss, night sweats, fever, confirmed lymphoma via biopsy.",Lymphoma
+"Painful urination, frequent urge to urinate, confirmed bladder infection.",UTI
+"Severe headache, vision changes, BP elevated, diagnosed preeclampsia.",Preeclampsia
+"Abdominal pain, bloating, irregular bowel movements, diagnosed IBS.",IBS
+"Joint pain, morning stiffness, swollen fingers, diagnosed osteoarthritis.",Osteoarthritis
+"Fatigue, tremor, palpitations, diagnosed hyperthyroidism.",Hyperthyroidism
+"Fever, chills, muscle aches, positive malaria smear.",Malaria
+"Severe chest pain, dyspnea, ECG shows ST-elevation, myocardial infarction confirmed.",Heart Attack
+"Persistent cough, wheezing, shortness of breath, COPD confirmed via spirometry.",COPD
+"Confusion, fever, neck stiffness, positive CSF culture, meningitis confirmed.",Meningitis
+"High blood sugar, frequent urination, blurred vision, diabetic ketoacidosis.",Diabetes
+"Rash on face and body, fever, Koplik spots, diagnosed measles.",Measles
+"Severe sore throat, fever, swollen tonsils, diagnosed streptococcal pharyngitis.",Strep Throat
+"Severe right upper quadrant pain, jaundice, ultrasound shows gallstones.",Gallstones
+"Persistent dry cough, weight loss, night sweats, positive TB culture.",Tuberculosis
+"Patient shows elevated TSH levels, indicating hypothyroidism",Hypothyroidism
+"Burning sensation while urinating, possible urinary tract infection",UTI
+"Persistent cough and fever, signs of tuberculosis",Tuberculosis
+"Patient reports frequent urination, excessive thirst, blurred vision.",Diabetes
+"Blood pressure consistently at 150/90 mmHg with dizziness.",Hypertension
+"Yellowing of skin and eyes, dark urine, fatigue.",Hepatitis B
+"Patient has cough with blood, night sweats, and weight loss.",Tuberculosis
+"Fever, severe headache, joint pain, and skin rash observed.",Dengue
+"High cholesterol and triglycerides found in lipid profile.",Hyperlipidemia
+"Shortness of breath, wheezing, and tightness in chest.",Asthma
+"Persistent sadness, sleep issues, and low energy.",Depression
+"Patient feels heartburn after meals and bloating.",Acidity
+"Red patches on skin with itching and dryness.",Psoriasis
+"Sudden weakness, slurred speech, and facial droop.",Stroke
+"Frequent cold, sneezing, nasal congestion and watery eyes.",Allergy
+"Chest pain during exertion, ECG shows irregularities.",Heart Disease
+"Sharp abdominal pain, vomiting, and loss of appetite.",Appendicitis
+"Fatigue, low platelets, systemic lupus erythematosus diagnosed.",Lupus
+"Palpable mass, BI-RADS 5, invasive ductal carcinoma confirmed.",Breast Cancer
+"Sore throat, chills, tested positive for influenza.",Flu
+"Swelling and tenderness in small joints. Anti-CCP positive.",Rheumatoid Arthritis
+"Travel history to endemic region, diagnosed with malaria.",Malaria
+"Severe substernal pain radiating to jaw. MI confirmed.",Heart Attack
+"Patient reports extreme fatigue and weight loss. Blood sugar levels high.",Diabetes
+"Jaundice, dark urine, liver ultrasound shows inflammation.",Hepatitis B
+"Nausea and severe RLQ pain. Appendix wall thickened.",Appendicitis
+"Exercise-induced wheezing and coughing episodes reported.",Asthma
+"Lump detected in right breast. FNAC suggests malignancy.",Breast Cancer
+"Positive IgM antibodies. Severe muscle pain and fever.",Dengue
+"Nocturnal headaches, nosebleeds, elevated diastolic pressure.",Hypertension
+"Loss of interest in activities, insomnia for 3 weeks.",Depression
+"Patient uses inhaler frequently. Shortness of breath during sleep.",Asthma
+"Increased thirst and frequent urination. HbA1c at 8.9%.",Diabetes
+"Positive nitrite test. Midstream urine shows bacteria.",UTI
+"Hair loss, dry skin, low T3 and T4.",Hypothyroidism
+"Triggers include cold air and dust. PFT confirms diagnosis.",Asthma
+"Patient shows elevated TSH levels, indicating hypothyroidism",Hypothyroidism
+"Burning sensation while urinating, possible urinary tract infection",UTI
+"Persistent cough and fever, signs of tuberculosis",Tuberculosis
+"Patient reports frequent urination, excessive thirst, blurred vision.",Diabetes
+"Blood pressure consistently at 150/90 mmHg with dizziness.",Hypertension
+"Yellowing of skin and eyes, dark urine, fatigue.",Hepatitis B
+"Patient has cough with blood, night sweats, and weight loss.",Tuberculosis
+"Fever, severe headache, joint pain, and skin rash observed.",Dengue
+"High cholesterol and triglycerides found in lipid profile.",Hyperlipidemia
+"Shortness of breath, wheezing, and tightness in chest.",Asthma
+"Persistent sadness, sleep issues, and low energy.",Depression
+"Patient feels heartburn after meals and bloating.",Acidity
+"Red patches on skin with itching and dryness.",Psoriasis
+"Sudden weakness, slurred speech, and facial droop.",Stroke
+"Frequent cold, sneezing, nasal congestion and watery eyes.",Allergy
+"Chest pain during exertion, ECG shows irregularities.",Heart Disease
+"Sharp abdominal pain, vomiting, and loss of appetite.",Appendicitis
+"Fatigue, low platelets, systemic lupus erythematosus diagnosed.",Lupus
+"Palpable mass, BI-RADS 5, invasive ductal carcinoma confirmed.",Breast Cancer
+"Sore throat, chills, tested positive for influenza.",Flu
+"Swelling and tenderness in small joints. Anti-CCP positive.",Rheumatoid Arthritis
+"Travel history to endemic region, diagnosed with malaria.",Malaria
+"Severe substernal pain radiating to jaw. MI confirmed.",Heart Attack
+"Patient reports extreme fatigue and weight loss. Blood sugar levels high.",Diabetes
+"Jaundice, dark urine, liver ultrasound shows inflammation.",Hepatitis B
+"Nausea and severe RLQ pain. Appendix wall thickened.",Appendicitis
+"Exercise-induced wheezing and coughing episodes reported.",Asthma
+"Lump detected in right breast. FNAC suggests malignancy.",Breast Cancer
+"Positive IgM antibodies. Severe muscle pain and fever.",Dengue
+"Nocturnal headaches, nosebleeds, elevated diastolic pressure.",Hypertension
+"Loss of interest in activities, insomnia for 3 weeks.",Depression
+"Patient uses inhaler frequently. Shortness of breath during sleep.",Asthma
+"Increased thirst and frequent urination. HbA1c at 8.9%.",Diabetes
+"Positive nitrite test. Midstream urine shows bacteria.",UTI
+"Hair loss, dry skin, low T3 and T4.",Hypothyroidism
+"Triggers include cold air and dust. PFT confirms diagnosis.",Asthma
+"Persistent vomiting and dehydration observed.",Gastroenteritis
+"Elevated liver enzymes, fatigue, history of alcohol consumption.",Alcoholic Hepatitis
+"Severe headache, nausea, vision disturbances.",Migraine
+"Pain and swelling in knee joint, X-ray shows osteoarthritis.",Osteoarthritis
+"Persistent cough with sputum, chest X-ray shows pneumonia.",Pneumonia
+"Rapid weight gain, fluid retention, shortness of breath.",Congestive Heart Failure
+"Frequent urination at night, high blood sugar readings.",Diabetes
+"Red, swollen eyes with pus discharge.",Conjunctivitis
+"Sudden high fever with chills and body ache.",Malaria
+"Chest tightness and wheezing during pollen season.",Allergic Asthma
+"Muscle weakness, tingling in extremities.",Peripheral Neuropathy
+"Severe abdominal cramping, diarrhea after eating.",Food Poisoning
+"Persistent sadness, hopelessness, lack of motivation.",Depression
+"Throat pain with white patches, tested positive for streptococcus.",Strep Throat
+"Severe right upper quadrant pain, elevated ALT/AST.",Hepatitis A
+"Shortness of breath at rest, low oxygen saturation.",COPD
+"Swelling in ankles and legs, protein in urine.",Nephrotic Syndrome
+"Abdominal pain and bloating after meals.",Irritable Bowel Syndrome
+"Frequent nosebleeds, fatigue, low platelet count.",Thrombocytopenia
+"Persistent cough, night sweats, weight loss, positive Mantoux test.",Tuberculosis
+"Blurred vision and halos around lights.",Glaucoma
+"Severe chest pain and ECG showing ST elevation.",Heart Attack
+"Fatigue, cold intolerance, weight gain.",Hypothyroidism
+"Red itchy rash spreading rapidly over the body.",Chickenpox
+"Persistent high fever, body ache, positive dengue NS1 antigen.",Dengue
+"Painful urination with burning sensation, positive urine culture.",UTI
+"Difficulty swallowing, painful throat, fever.",Tonsillitis
+"Joint pain and swelling, morning stiffness lasting more than 1 hour.",Rheumatoid Arthritis
+"Persistent headache, confusion, neck stiffness.",Meningitis
+"Frequent urination, excessive thirst, blurred vision.",Diabetes
+"Swelling and tenderness in joints, positive anti-CCP.",Rheumatoid Arthritis
+"Severe vomiting and abdominal cramps.",Gastroenteritis
+"Yellow eyes and skin, dark urine.",Hepatitis B
+"Palpitations, dizziness, shortness of breath.",Arrhythmia
+"Persistent cough, wheezing, chest tightness.",Asthma
+"Rapid onset of rash, itching and hives.",Allergic Reaction
+"Fever with muscle pain, chills, and sweating.",Malaria
+"Extreme fatigue, weight loss, high fasting glucose.",Diabetes
+"Severe lower abdominal pain, tenderness on palpation.",Appendicitis
+"Shortness of breath on exertion, edema, cough.",Congestive Heart Failure
+"Persistent cough with greenish sputum.",Pneumonia
+"Nasal congestion, runny nose, watery eyes.",Allergic Rhinitis
+"Severe right lower quadrant pain, rebound tenderness.",Appendicitis
+"Red itchy patches on elbows and knees.",Psoriasis
+"High BP readings with headache.",Hypertension
+"Extreme sadness, low motivation, sleep disturbances.",Depression
+"Fatigue, dry skin, low T4.",Hypothyroidism
+"Chest pain with exertion, ECG changes.",Heart Disease
+"Severe headache with nausea and light sensitivity.",Migraine
+"Fever, rash, joint pain, positive NS1.",Dengue
+"Patient shows elevated TSH levels, indicating hypothyroidism",Hypothyroidism
+"Burning sensation while urinating, possible urinary tract infection",UTI
+"Persistent cough and fever, signs of tuberculosis",Tuberculosis
+"Patient reports frequent urination, excessive thirst, blurred vision.",Diabetes
+"Blood pressure consistently at 150/90 mmHg with dizziness.",Hypertension
+"Yellowing of skin and eyes, dark urine, fatigue.",Hepatitis B
+"Patient has cough with blood, night sweats, and weight loss.",Tuberculosis
+"Fever, severe headache, joint pain, and skin rash observed.",Dengue
+"High cholesterol and triglycerides found in lipid profile.",Hyperlipidemia
+"Shortness of breath, wheezing, and tightness in chest.",Asthma
+"Persistent sadness, sleep issues, and low energy.",Depression
+"Patient feels heartburn after meals and bloating.",Acidity
+"Red patches on skin with itching and dryness.",Psoriasis
+"Sudden weakness, slurred speech, and facial droop.",Stroke
+"Frequent cold, sneezing, nasal congestion and watery eyes.",Allergy
+"Chest pain during exertion, ECG shows irregularities.",Heart Disease
+"Sharp abdominal pain, vomiting, and loss of appetite.",Appendicitis
+"Fatigue, low platelets, systemic lupus erythematosus diagnosed.",Lupus
+"Palpable mass, BI-RADS 5, invasive ductal carcinoma confirmed.",Breast Cancer
+"Sore throat, chills, tested positive for influenza.",Flu
+"Swelling and tenderness in small joints. Anti-CCP positive.",Rheumatoid Arthritis
+"Travel history to endemic region, diagnosed with malaria.",Malaria
+"Severe substernal pain radiating to jaw. MI confirmed.",Heart Attack
+"Patient reports extreme fatigue and weight loss. Blood sugar levels high.",Diabetes
+"Jaundice, dark urine, liver ultrasound shows inflammation.",Hepatitis B
+"Nausea and severe RLQ pain. Appendix wall thickened.",Appendicitis
+"Exercise-induced wheezing and coughing episodes reported.",Asthma
+"Lump detected in right breast. FNAC suggests malignancy.",Breast Cancer
+"Positive IgM antibodies. Severe muscle pain and fever.",Dengue
+"Nocturnal headaches, nosebleeds, elevated diastolic pressure.",Hypertension
+"Loss of interest in activities, insomnia for 3 weeks.",Depression
+"Patient uses inhaler frequently. Shortness of breath during sleep.",Asthma
+"Increased thirst and frequent urination. HbA1c at 8.9%.",Diabetes
+"Positive nitrite test. Midstream urine shows bacteria.",UTI
+"Hair loss, dry skin, low T3 and T4.",Hypothyroidism
+"Triggers include cold air and dust. PFT confirms diagnosis.",Asthma
+"Persistent vomiting and dehydration observed.",Gastroenteritis
+"Elevated liver enzymes, fatigue, history of alcohol consumption.",Alcoholic Hepatitis
+"Severe headache, nausea, vision disturbances.",Migraine
+"Pain and swelling in knee joint, X-ray shows osteoarthritis.",Osteoarthritis
+"Persistent cough with sputum, chest X-ray shows pneumonia.",Pneumonia
+"Rapid weight gain, fluid retention, shortness of breath.",Congestive Heart Failure
+"Frequent urination at night, high blood sugar readings.",Diabetes
+"Red, swollen eyes with pus discharge.",Conjunctivitis
+"Sudden high fever with chills and body ache.",Malaria
+"Chest tightness and wheezing during pollen season.",Allergic Asthma
+"Muscle weakness, tingling in extremities.",Peripheral Neuropathy
+"Severe abdominal cramping, diarrhea after eating.",Food Poisoning
+"Persistent sadness, hopelessness, lack of motivation.",Depression
+"Throat pain with white patches, tested positive for streptococcus.",Strep Throat
+"Severe right upper quadrant pain, elevated ALT/AST.",Hepatitis A
+"Shortness of breath at rest, low oxygen saturation.",COPD
+"Swelling in ankles and legs, protein in urine.",Nephrotic Syndrome
+"Abdominal pain and bloating after meals.",Irritable Bowel Syndrome
+"Frequent nosebleeds, fatigue, low platelet count.",Thrombocytopenia
+"Blurred vision and halos around lights.",Glaucoma
+"Palpitations, dizziness, shortness of breath.",Arrhythmia
+"Rapid onset of rash, itching and hives.",Allergic Reaction
+"Persistent headache, confusion, neck stiffness.",Meningitis
+"Sudden onset of severe chest pain, ECG shows ST elevation.",Heart Attack
+"Red itchy patches on elbows and knees.",Psoriasis
+"Extreme fatigue, weight loss, high fasting glucose.",Diabetes
+"Severe lower abdominal pain, tenderness on palpation.",Appendicitis
+"Shortness of breath on exertion, edema, cough.",Congestive Heart Failure
+"Persistent cough with greenish sputum.",Pneumonia
+"Nasal congestion, runny nose, watery eyes.",Allergic Rhinitis
+"Persistent high fever, rash, joint pain, positive NS1.",Dengue
+"Fever, chills, and swollen lymph nodes.",Lymphoma
+"Persistent back pain with tingling in legs.",Spinal Disc Herniation
+"Severe abdominal pain with vomiting, positive ultrasound.",Gallstones
+"Chronic fatigue, muscle pain, sleep disturbances.",Fibromyalgia
+"Sudden onset of confusion and slurred speech.",Stroke
+"Severe sore throat with difficulty swallowing.",Tonsillitis
+"Persistent fever, night sweats, weight loss, positive biopsy.",Leukemia
+"Severe headache, nausea, and visual disturbances, MRI shows aneurysm.",Brain Aneurysm
+"Persistent chest pain, shortness of breath, troponin elevated.",Heart Attack
+"Swelling of joints, morning stiffness lasting 1 hour.",Rheumatoid Arthritis
+"Abdominal bloating, diarrhea, and weight loss.",Celiac Disease
+"Persistent dry cough, night sweats, weight loss, positive TB test.",Tuberculosis
+"Elevated bilirubin, yellow eyes and skin, fatigue.",Hepatitis B
+"Frequent urination, excessive thirst, weight loss.",Diabetes
+"Shortness of breath, wheezing, allergy triggers.",Asthma
+"Sudden weakness on one side, facial droop, slurred speech.",Stroke
+"Palpitations, chest discomfort, ECG shows arrhythmia.",Arrhythmia
+"Persistent fever, rash, joint pain, positive dengue NS1.",Dengue
+"Extreme fatigue, pale skin, low hemoglobin.",Anemia
+"Persistent cough with phlegm, chest X-ray shows infection.",Pneumonia
+"Sudden severe abdominal pain, vomiting, rebound tenderness.",Appendicitis
+"Fatigue, joint pain, butterfly rash on face.",Lupus
+"Swelling in legs, proteinuria, hypertension.",Nephrotic Syndrome
+"Muscle weakness, tremors, elevated TSH.",Hypothyroidism
+"Burning urination, dysuria, confirmed infection.",UTI
+"Persistent sadness, loss of interest, sleep disturbances.",Depression
+"Severe right upper quadrant pain, nausea, elevated liver enzymes.",Hepatitis A
+"Shortness of breath at rest, chronic cough, smoker.",COPD
+"Rapid onset rash, itching, swelling after exposure.",Allergic Reaction
+"Severe headache, fever, neck stiffness.",Meningitis
+"Persistent vomiting, dehydration, positive stool culture.",Gastroenteritis
+"Joint swelling and deformity, chronic pain.",Osteoarthritis
+"Chest pain on exertion, ECG shows ischemia.",Heart Disease
+"High cholesterol, elevated LDL, triglycerides high.",Hyperlipidemia
+"Rapid breathing, wheezing, allergy triggers.",Allergic Asthma
+"Severe abdominal cramping, diarrhea after contaminated food.",Food Poisoning
+"Frequent headaches, visual disturbances, nausea.",Migraine
+"Red, itchy, scaly skin patches on elbows and knees.",Psoriasis
+"Sudden numbness, slurred speech, facial droop.",Stroke
+"Rapid weight gain, fluid retention, swelling in ankles.",Congestive Heart Failure
+"Persistent fever, sore throat, swollen lymph nodes.",Strep Throat
+"Extreme fatigue, muscle aches, sleep disturbances.",Fibromyalgia
+"Severe abdominal pain, jaundice, elevated bilirubin.",Gallstones
+"Swelling and redness in eyes, discharge present.",Conjunctivitis
+"Persistent cough, sputum production, fever.",Pneumonia
+"High blood pressure readings consistently above normal.",Hypertension
+"Sudden onset confusion, memory loss, MRI shows lesion.",Alzheimer's Disease
+"Severe right lower quadrant pain, nausea, positive ultrasound.",Appendicitis
+"Thyroid swelling, fatigue, weight changes, lab tests positive.",Goiter
+"Persistent fatigue, cold intolerance, dry skin.",Hypothyroidism
+"Sudden chest pain with sweating and nausea.",Heart Attack
+"Frequent urination at night, elevated fasting glucose.",Diabetes
+"Fever, body ache, travel to malaria-endemic region.",Malaria
+"Swelling of lymph nodes, persistent fever, fatigue.",Lymphoma
+"Sudden onset of tremors, rigidity, bradykinesia.",Parkinson's Disease
+"Severe abdominal cramping, diarrhea, vomiting after food intake.",Food Poisoning
+"High fever, rash, joint pain, positive chikungunya IgM.",Chikungunya
+"Severe headache, fever, photophobia, positive lumbar puncture.",Meningitis
+"Extreme fatigue, joint pain, mouth ulcers, butterfly rash.",Lupus
+"Persistent cough, sputum, positive chest X-ray for infection.",Tuberculosis
