@@ -23,7 +23,7 @@ except Exception as e:
     clf = joblib.load(MODEL_PATH)
 
 try:
-    embedder = SentenceTransformer('sentence-transformers/paraphrase-MiniLM-L3-v2', device='cpu')
+    embedder = SentenceTransformer('all-MiniLM-L6-v2',device='cpu')
 except Exception as e:
     raise RuntimeError(f"❌ Failed to load SentenceTransformer: {e}")
 
