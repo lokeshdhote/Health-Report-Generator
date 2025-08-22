@@ -57,5 +57,6 @@ def log_prediction(report_text: str, disease: str):
                 report_text[:50],
                 disease
             ])
+            
     except Exception as e:
         print(f"❌ Failed to log prediction: {e}")
